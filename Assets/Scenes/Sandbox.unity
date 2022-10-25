@@ -123,6 +123,23 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &37208182 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2602874786087834674, guid: b65ba912458842a4096d54d71d9dd74c, type: 3}
+  m_PrefabInstance: {fileID: 3786029058668614862}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &37208183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37208182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19c3df5afb8292b4da4e9be17c5841fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -420,14 +437,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 37208188, guid: b65ba912458842a4096d54d71d9dd74c, type: 3}
-      propertyPath: m_Drag
-      value: 0.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 37208188, guid: b65ba912458842a4096d54d71d9dd74c, type: 3}
-      propertyPath: m_Constraints
-      value: 56
-      objectReference: {fileID: 0}
     - target: {fileID: 2602874786087834674, guid: b65ba912458842a4096d54d71d9dd74c, type: 3}
       propertyPath: m_Name
       value: Rocket
@@ -533,6 +542,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Landing Pad
       objectReference: {fileID: 0}
+    - target: {fileID: 7555056605923169537, guid: 256c993698d774c4ebd2fb6c14cecfcd, type: 3}
+      propertyPath: m_TagString
+      value: Finish
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 256c993698d774c4ebd2fb6c14cecfcd, type: 3}
 --- !u!1001 &6993620509623785658
@@ -545,6 +558,10 @@ PrefabInstance:
     - target: {fileID: 2854121349448069744, guid: f49c9010e4eaffe46a36229849a697b8, type: 3}
       propertyPath: m_Name
       value: Launch Pad
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854121349448069744, guid: f49c9010e4eaffe46a36229849a697b8, type: 3}
+      propertyPath: m_TagString
+      value: Friendly
       objectReference: {fileID: 0}
     - target: {fileID: 6522344638068503855, guid: f49c9010e4eaffe46a36229849a697b8, type: 3}
       propertyPath: m_RootOrder
